@@ -1,0 +1,217 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{
+    
+    background-image: url(images/bg.jpg);
+    font-family: Arial
+    
+}
+
+.MainDiv{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%)
+    
+    
+}
+
+.ChilDiv{
+    
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-bottom: 0.3px solid #b9b9b9
+}
+
+.DivForm1{
+    
+    width: 220px;
+    position: absolute;
+    left: 75%;
+    top: 63%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    
+}
+
+.DivForm2{
+    
+    width: 220px;
+    position: absolute;
+    left: 8%;
+    top: 55%;
+    
+}
+
+.DivLine1{
+    
+    width: 100px;
+    height: 60px;
+    border-right: 0.3px solid #b9b9b9;
+    position: absolute;
+    left: 35%;
+    top: 43%;
+    
+}
+
+.DivLine2{
+    
+    width: 100px;
+    height: 60px;
+    border-right: 0.3px solid #b9b9b9;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+
+.or{
+    
+    position: absolute;
+    left: 50.5%;
+    top: 63%;
+    color: #b9b9b9
+}
+
+.Text1{
+    
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    color: #b9b9b9
+}
+
+.Text2{
+    
+    position: absolute;
+    left: 6%;
+    top: 35%;
+    color: #b9b9b9
+}
+
+.colorBlue{
+    
+   color: #2944ab
+}
+
+.colorBlack{
+    
+    color: black
+}
+
+.color{
+    
+    color: #30cad0
+}
+
+input[type="text"]{
+    
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 210px;
+    background: #ebebeb url(images/user-icon.png) no-repeat;
+    background-position: 10px;
+    outline: none;
+    -webkit-box-shadow: inset 0 0.5px 0.5px rgba(0,0,0,0.4);
+            box-shadow: inset 0 0.5px 0.5px rgba(0,0,0,0.4);
+    border-radius: 7px;
+    border: none;
+
+    
+}
+
+input[type="password"]{
+    
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 210px;
+    background: #ebebeb;
+    background: #ebebeb url(images/password-icon.png) no-repeat;
+    background-position: 10px;
+    outline: none;
+    -webkit-box-shadow: inset 0 0.5px 0.5px rgba(0,0,0,0.4);
+            box-shadow: inset 0 0.5px 0.5px rgba(0,0,0,0.4);
+    border-radius: 7px;
+    border: none;
+
+    
+}
+
+input[type="password"]::after{
+    
+    content: "";
+    margin-left: 15px
+    
+    
+}
+
+input[type="submit"]{
+    
+    margin-left: 140px;
+    padding: 8px 25px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fad965), to(#d1b03d));
+    background: -o-linear-gradient(#fad965, #d1b03d);
+    background: linear-gradient(#fad965, #d1b03d);
+    border: none;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 1.5px 0.5px rgba(0,0,0,0.5);
+            box-shadow: 0 1.5px 0.5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    outline: none
+    
+}
+
+.fpassword{
+    
+    text-align: right;
+    color: #b9b9b9
+}
+
+.facebook{
+    
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    width: 220px;
+    background: url(images/fb-icon.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#668dc8), to(#4870ab));
+    background: url(images/fb-icon.png) no-repeat, -o-linear-gradient(#668dc8, #4870ab);
+    background: url(images/fb-icon.png) no-repeat, linear-gradient(#668dc8, #4870ab);
+    background-position: 10px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none
+
+}
+
+.twitter{
+    
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    width: 220px;
+    background: url(images/twitter-icon.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#53d0d5), to(#36b3b8));
+    background: url(images/twitter-icon.png) no-repeat, -o-linear-gradient(#53d0d5, #36b3b8);
+    background: url(images/twitter-icon.png) no-repeat, linear-gradient(#53d0d5, #36b3b8);
+    background-position: 10px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none
+}
+

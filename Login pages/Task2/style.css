@@ -1,0 +1,381 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{
+    
+    background: url(images/bg.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    
+    text-align: center;
+    font-family: AkzidenzGrotesk Black;
+    font-size: 60px;
+    color: #00264d
+}
+
+.Facebook{
+    
+    padding: 10px 40px;
+    background: url(images/fb-icon.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#0d76be), to(#0d63ab));
+    background: url(images/fb-icon.png) no-repeat, -o-linear-gradient(#0d76be, #0d63ab);
+    background: url(images/fb-icon.png) no-repeat, linear-gradient(#0d76be, #0d63ab);
+    background-position: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-box-shadow: 0.5px 0.5px 5px 0.1px rgba(0,0,0,0.5);
+            box-shadow: 0.5px 0.5px 5px 0.1px rgba(0,0,0,0.5);   
+   
+}
+
+.Twitter{
+    
+    padding: 10px 40px;
+    background: url(images/twitter-icon.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#57d5ff), to(#17ade0));
+    background: url(images/twitter-icon.png) no-repeat, -o-linear-gradient(#57d5ff, #17ade0);
+    background: url(images/twitter-icon.png) no-repeat, linear-gradient(#57d5ff, #17ade0);
+    background-position: 7px;
+/*    outline: none;*/
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-box-shadow: 0.5px 0.5px 5px 0.1px rgba(0,0,0,0.5);
+            box-shadow: 0.5px 0.5px 5px 0.1px rgba(0,0,0,0.5);   
+
+}
+
+
+.divButtonFacebook{
+    
+    position: relative;
+    left: 33%;
+    float: left
+}
+
+.divButtonFacebook::after{
+    
+    content: "";
+    display: block;
+    height: 35px;
+    width: 1px;
+    position: relative;
+    top: -35px;
+    left: 35px;
+    border-right: 1px solid gray;
+}
+
+
+.buttonTwitter{
+    
+    position: absolute;
+    left: 56%;
+    
+}
+.buttonTwitter::after{
+    
+    content: "";
+    display: block;
+    height: 35px;
+    width: 1px;
+    position: relative;
+    top: -35px;
+    left: 38px;
+    border-left: 1px solid gray;
+}
+
+.or{
+    
+    position: absolute;
+    left: 50.1%;
+    top: 35.45%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #dce1db
+}
+
+.or::after{
+    
+    content: "";
+    display: block;
+    width: 100px;
+    color: grey;
+    position: absolute;
+    border-top: 1px solid #dce1db;
+    top: 20px
+    
+}
+.or::before{
+    
+    content: "";
+    display: block;
+    width: 100px;
+    color: grey;
+    position: absolute;
+    border-top: 1px solid #dce1db;
+    top: 20px;
+    left: -60px
+   
+    
+}
+
+.orP{
+    position: absolute;
+    left: 51%;
+    top: 34%;
+    color: #7a7a78
+}
+
+input[type="text"]{
+    
+    width: 400px;
+    height: 35px;
+    text-align: left;
+    background: url(images/user-icon.png) no-repeat, #ebebeb;
+    background-position: 380px;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    margin-bottom: 25px
+}
+
+input[type="password"]{
+    
+    width: 400px;
+    height: 35px;
+    text-align: left;
+    background: url(images/password-icon.png) no-repeat, #ebebeb;
+    background-position: 380px;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    outline: none
+    
+
+}
+
+.divUser{
+    
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%)
+}
+
+.divUser::after{
+    
+    content: "";
+    height: 39px;
+    position: absolute;
+    top: 0;
+    left: 365px;
+    display: block;
+    border-right: 1px solid grey;
+    
+}
+
+.divPassword{
+    
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%)
+}
+
+.divPassword::after{
+    
+    content: "";
+    height: 39px;
+    position: absolute;
+    top: 0;
+    left: 365px;
+    display: block;
+    border-right: 1px solid grey;
+}
+
+input[type="text"]:focus{
+    
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.5);
+    
+            box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.5);
+    border: 1px solid #258af6;
+    background: url(images/user-icon-active.png) no-repeat;
+    background-position: 380px
+    
+}
+input[type="password"]:focus{
+    
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.5);
+    
+            box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.5);
+    border: 1px solid #258af6;
+    background: url(images/password-icon-active.png) no-repeat;
+    background-position: 380px;
+    color: #007eff
+    
+}
+input[type="text"]:focus::-moz-placeholder{
+    
+    color: #007eff
+}
+input[type="text"]:focus::-webkit-input-placeholder{
+    
+    color: #007eff
+}
+input[type="text"]:focus:-ms-input-placeholder{
+    
+    color: #007eff
+}
+input[type="text"]:focus::-ms-input-placeholder{
+    
+    color: #007eff
+}
+input[type="text"]:focus::placeholder{
+    
+    color: #007eff
+}
+
+
+
+input[type="password"]:focus::-moz-placeholder{
+    
+    color: #007eff
+}
+input[type="password"]:focus::-webkit-input-placeholder{
+    
+    color: #007eff
+}
+input[type="password"]:focus:-ms-input-placeholder{
+    
+    color: #007eff
+}
+input[type="password"]:focus::-ms-input-placeholder{
+    
+    color: #007eff
+}
+input[type="password"]:focus::placeholder{
+    
+    color: #007eff
+}
+
+
+
+input[type="text"]::-moz-placeholder{
+    
+    color: #797979
+}
+input[type="text"]::-webkit-input-placeholder{
+    
+    color: #797979
+}
+input[type="text"]:-ms-input-placeholder{
+    
+    color: #797979
+}
+input[type="text"]::-ms-input-placeholder{
+    
+    color: #797979
+}
+input[type="text"]::placeholder{
+    
+    color: #797979
+}
+
+
+
+input[type="password"]::-moz-placeholder{
+    
+    color: #797979
+}
+input[type="password"]::-webkit-input-placeholder{
+    
+    color: #797979
+}
+input[type="password"]:-ms-input-placeholder{
+    
+    color: #797979
+}
+input[type="password"]::-ms-input-placeholder{
+    
+    color: #797979
+}
+input[type="password"]::placeholder{
+    
+    color: #797979
+}
+
+.checkbox{
+    
+    color: white;
+    position: relative;
+    top: 285px;
+    left: 20%;
+}
+
+.question{
+    
+    color: white;
+    position: relative;
+    top: 285px;
+    left: 28%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+
+input[type="submit"]{
+    
+    position: relative;
+    top: 145px;
+    left: 51%;
+    -webkit-transform: translate(-50%,0%);
+        -ms-transform: translate(-50%,0%);
+            transform: translate(-50%,0%);
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    background: #254e77;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid #258af6;
+    outline: none;
+    cursor: pointer
+}
+
+.divEnd{
+    
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 53%;
+    top: 91%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%)
+}
+
+.end1{
+    
+    color: grey
+}
+.end2{
+    
+    position: absolute;
+    color: #258af6
+}
